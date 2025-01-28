@@ -28,17 +28,31 @@ Start the server by running:
 node App.js
 6. Access the API:
 You can access the API endpoints at http://localhost:3000/api/.
-API Endpoints: 
+
+API Endpoints:
+
 -User Registration: POST /api/users/register
+
 -User Login: POST /api/users/login
+
 -User Profile: GET /api/users/profile (Requires authentication)
+
 -Create Blog: POST /api/blogs (Requires authentication)
+
 -Update Blog: PUT /api/blogs/:blogId (Requires authentication)
+
 -Delete Blog: DELETE /api/blogs/:blogId (Requires authentication)
+
 -Get Blog: GET /api/blogs/:blogId
+
 -Rate Blog: POST /api/blog-ratings (Requires authentication)
+
 -Create Comment: POST /api/comments (Requires authentication)
+
 -Edit Comment: PUT /api/comments/:commentId (Requires authentication)
+
 -Delete Comment: DELETE /api/comments/:commentId (Requires authentication)
+
 -Like Blog: POST /api/likes (Requires authentication)
+
 -Unlike Blog: DELETE /api/likes/:blogId (Requires authentication)
